@@ -1,0 +1,37 @@
+body {
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  padding: 20px;
+  flex-wrap: wrap;
+  max-width: 100vw;
+}
+
+button {
+  font-size: 1em;
+  padding: 2em 5em;
+  border: none;
+  background-color: #03538b;
+  color: white;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
